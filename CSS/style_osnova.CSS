@@ -1,0 +1,326 @@
+@font-face{
+    font-family: ACDC;
+    src: url(../font/squealer.ttf);
+}
+@font-face{
+    font-family: Airoport;
+    src: url(../font/Airport.ttf);
+}
+.bg {
+    background-color: rgb(0, 0, 0);
+}
+.header{
+    display: flex;
+}
+.header-kont img{
+    height: 20px;
+    width: auto;
+}
+.TG img{
+    margin-right: 5px;
+}
+.telefone img{
+    color: rgba(148, 155, 155, 0.744);
+    vertical-align: -4px;
+    margin-right: 5px;
+}
+.telefone{
+    position: relative;
+    font-size: 20px;
+}
+.vk img{
+    height: 40px;
+    width: auto;
+    position: relative;
+    top: -10px;
+    left: -23px;
+}
+.header-kont a{
+    position: relative;
+    z-index: 100;
+    font-size: 16px;
+    vertical-align: 5px;
+    color: rgba(148, 155, 155, 0.744);
+}
+.vk a{
+    top: -19px;
+    left: -40px;
+    font-size: 20px;
+}
+.TG a{
+    font-size: 18px;
+}
+.header-kont{
+    font-family: Airoport;
+    font-size: 25px;
+    line-height: 20px; 
+    padding: 0 15px;
+    color: rgba(148, 155, 155, 0.744);
+}
+.header-nazv{
+    flex-grow: 1;
+    padding: 0 10px;
+    color: rgba(104, 4, 4, 0.928);
+    font-size: 200px;
+    font-family: ACDC;
+    text-shadow: 
+        2px 2px 0 rgba(210, 8, 8, 0.722),
+        -2px -2px 0 rgba(0, 0, 0, 0.2),
+        0 2px 0 rgba(0, 0, 0, 0.2),
+        2px 0 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    top: 25px;
+    margin-left: -400px;
+}
+.header-logo img{
+    height: 250px;
+    width: auto;
+    margin-left: -400px;
+    position: relative;
+    top: 20px;
+}
+.osnova{
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+.menu{
+    flex-grow: 1;
+    color: rgba(154, 11, 11, 0.902);
+    border: 3px solid brown;
+    background-color: rgb(216, 146, 16);
+    text-align: center;
+    font-family: Airport;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+.menu span{
+    font-size: 40px;
+    display: block;
+    font-weight: bold;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;   
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1; 
+    gap: 100px;   
+    justify-content:space-evenly;
+    position: relative;  
+    top: 100%;             
+    left: -3px;         
+    right: 0; 
+    background-color: inherit;
+    border: 3px solid brown;
+    background-color: rgb(216, 146, 16);
+    width: 100%;
+    border-bottom: 1px;
+}
+.menu ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 3px solid brown;
+    font-weight: bold;
+    padding: 5px 50px;
+    font-size: 30px;
+    word-break: break-word;
+    margin: 0 0 0 -120px;
+    flex-grow: 1;
+}
+.menu ul li:first-child{
+    padding-left: 170px;
+    max-width: 80px;
+}
+.menu ul li:last-child {
+    border-right: none;
+}
+.menu a{
+    color: rgba(154, 11, 11, 0.902);
+    text-decoration: none;
+}
+.menu a:hover{
+        transform: scale(1.15);
+}
+.novost{
+    color: rgba(154, 11, 11, 0.902);
+    border: 3px solid brown;
+    background-color: rgb(216, 146, 16);
+    text-align: center;
+    font-family: Airport;
+    padding: 0 180px;
+    max-width: 150px;
+    padding-left: 140px;
+}
+.novost span{
+    flex-grow: 1;
+    font-size: 80px;
+    padding-top: 40px;
+    font-weight: bold;
+    justify-content: center;
+}
+.massa{
+    display: flex;
+    position: relative;
+    top: 40px
+}
+.reclama{
+    width: 300px;
+    border: 3px solid brown;
+    border-top: 1px;
+    position: relative;
+    color: azure;
+    z-index: 100;
+}
+.reclama img{
+    height: 550px;
+    width: 300px;
+    display: block;
+    z-index: 100;
+}
+.reclama img:hover{
+    transform: scale(1.15);
+}
+.info{
+    width: 1086px;
+    border: 3px solid brown;
+    border-top: 1px;
+    position: relative;
+    background-color: rgb(187, 186, 186);
+    border-left: 1px;
+}
+.info-head{
+    font-family: Airport;
+    font-size: 60px;
+    padding: 40px;
+    color: rgb(87, 23, 23);
+}
+.info-korob_text_head{
+    font-family: Airport;
+    text-decoration: underline;
+    position: absolute;
+    font-size: 50px;
+    margin: 0 30px;
+    transform: translateY(60px)  translateX(32px)
+}
+.info-korob_text_1{
+    font-family: Airport;
+    color: dimgray;
+    position: absolute;
+    font-size: 20px;
+    margin: 0 30px;
+    transform: translateY(125px)  translateX(32px)
+}
+.info-korob_text_2{
+    font-family: Airport;
+    color: dimgray;
+    position: absolute;
+    font-size: 20px;
+    margin: 0 30px;
+    transform: translateY(150px)  translateX(32px)
+}
+.info-korob img{
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    padding: 0 10px;
+    border: 2px solid rgb(87, 23, 23);
+    background-color: rgb(222, 242, 242);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.info-korob a{
+    z-index: 1000;
+    font-family: Airport;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(154, 11, 11, 0.902);
+    margin-left: 350px;
+    margin-top: 215px;
+}
+.info-korob a:hover{
+        transform: scale(1.15);
+}
+.info-korob_sale1{
+    font-family: Airport;
+    position: absolute;
+    font-size: 40px;
+    margin: 0 70px;
+    transform: translateY(200px) translateX(30px);
+    color: rgba(82, 81, 81, 0.809);
+    text-decoration: line-through;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.info-korob_sale2{
+    font-family: Airport;
+    position: absolute;
+    font-size: 50px;
+    margin: 0 70px;
+    transform: translateY(200px) translateX(95px) rotate(20deg);
+    color: rgba(247, 14, 14, 0.809);
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+.info-sale_text{
+    color: rgb(244, 242, 242);
+    font-size: 80px;
+    font-family: Airport;
+    position: absolute;
+    transform: translateY(-140px) translateX(310px) rotate(-30deg);
+    font-weight: bold;
+}
+.info-sale img{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    transform: translateY(-220px) translateX(270px);
+}
+.massa-novost{
+    position: relative;
+    width: 480px;
+    border-left: 3px solid brown;
+    border-right: 3px solid brown;
+    border-bottom: 3px solid brown;
+    border-top: 1px;
+    position: relative;
+    background-color: rgb(222, 228, 242);
+}
+.massa-novost ul{
+    padding-left: 30px;
+    font-family: Airport;
+    list-style-type: none;
+    color: dimgray;
+    font-size: 25px
+}
+.massa-novost ul li{
+    margin-top: 35px;
+}
+.massa-novost ul li::before {
+    content: '!';
+    font-size: 28px;
+    color: darkorange;
+    margin-right: 10px;
+}
+.massa-novost a{
+    margin-left: 40px;
+    font-size: 18px;
+    color: rgba(32, 172, 248, 0.645);
+    text-decoration: underline;
+    position: relative;
+    top: -5px;
+}
+body {
+    min-width: 1850px;
+    overflow-x: auto;
+}
