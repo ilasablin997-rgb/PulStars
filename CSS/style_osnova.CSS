@@ -3,7 +3,7 @@
     src: url(../font/squealer.ttf);
 }
 @font-face{
-    font-family: Airoport;
+    font-family: Airport;
     src: url(../font/Airport.otf);
 }
 .bg {
@@ -51,7 +51,7 @@
     font-size: 18px;
 }
 .header-kont{
-    font-family: Airoport;
+    font-family: Airport;
     font-size: 25px;
     line-height: 20px; 
     padding: 0 15px;
