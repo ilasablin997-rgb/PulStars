@@ -320,7 +320,3 @@
     position: relative;
     top: -5px;
 }
-body {
-    min-width: 1850px;
-    overflow-x: auto;
-}
