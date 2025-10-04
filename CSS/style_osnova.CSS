@@ -4,7 +4,7 @@
 }
 @font-face{
     font-family: Airoport;
-    src: url(../font/Airport.ttf);
+    src: url(../font/Airport.otf);
 }
 .bg {
     background-color: rgb(0, 0, 0);
