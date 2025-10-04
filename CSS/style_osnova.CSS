@@ -86,6 +86,7 @@
     top: 40px;
 }
 .menu{
+    left: -2px;
     flex-grow: 1;
     color: rgba(154, 11, 11, 0.902);
     border: 3px solid brown;
@@ -147,6 +148,7 @@
         transform: scale(1.15);
 }
 .novost{
+    left: -2px;
     color: rgba(154, 11, 11, 0.902);
     border: 3px solid brown;
     background-color: rgb(216, 146, 16);
@@ -164,6 +166,7 @@
     justify-content: center;
 }
 .massa{
+    left: -2px;
     display: flex;
     position: relative;
     top: 40px
