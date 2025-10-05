@@ -461,4 +461,23 @@
         padding: 0 15%;
         width: 70%
     }
+    .massa-novost{
+        width: 100%;
+    }
+    .massa-novost::before {
+    content: "Новости";
+    display: block;
+    font-family: Airport;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(154, 11, 11, 0.902);
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px solid brown;
+    background-color: rgb(216, 146, 16);
+    margin-bottom: 20px;
+    }
+    .massa-novost ul{
+        padding-left: 10px;
+    }
 }
