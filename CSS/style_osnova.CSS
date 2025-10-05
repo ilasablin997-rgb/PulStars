@@ -479,5 +479,9 @@
     }
     .massa-novost ul{
         padding-left: 10px;
+        font-size: 20px;
+    }
+    .massa-novost a{
+        top: -3px;
     }
 }
