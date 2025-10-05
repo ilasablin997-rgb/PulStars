@@ -398,7 +398,7 @@
     .info{
         order: -1;
         width: 100%;
-        height: 620px;
+        height: 600px;
         border: 3px solid brown;
         border-top: 1px;
     }
@@ -427,26 +427,28 @@
     .info-korob_text_1{
         margin: 0;
         transform: translateY(360px)  translateX(-280px);
-        font-size: 23px;
+        font-size: 20px;
         white-space: nowrap;
     }
     .info-korob_text_2{
         margin: 0;
         transform: translateY(390px)  translateX(-280px);
-        font-size: 23px;
+        font-size: 20px;
         white-space: nowrap;
     }
     .info-korob_sale1{
-        transform: translateY(450px)  translateX(-340px);
+        font-size: 30px;
+        transform: translateY(440px)  translateX(-340px);
         white-space: nowrap;
     }
     .info-korob_sale2{
-        transform: translateY(450px)  translateX(-300px) rotate(20deg);
+        font-size: 40px;
+        transform: translateY(440px)  translateX(-300px) rotate(20deg);
         white-space: nowrap;
     }
     .info-korob a{
-        margin-left: -80px;
-        margin-top: 465px;
+        margin-left: -110px;
+        margin-top: 450px;
         white-space: nowrap;
         font-size: 28px;
     }
