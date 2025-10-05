@@ -461,6 +461,9 @@
         padding: 0 15%;
         width: 70%
     }
+    .reclama img:hover{
+    transform: none;
+    }
     .massa-novost{
         width: 100%;
     }
