@@ -452,4 +452,13 @@
         white-space: nowrap;
         font-size: 26px;
     }
+    .reclama{
+        order: 2;
+        width: 100%;
+        background-color: rgb(164, 190, 248);
+    }
+    .reclama img{
+        padding: 0 15%;
+        width: 70%
+    }
 }
