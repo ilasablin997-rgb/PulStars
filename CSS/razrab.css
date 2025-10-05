@@ -1,0 +1,91 @@
+@font-face{
+    font-family: Airport;
+    src: url(../font/Airport.otf) format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg {
+    min-height: 1000px;
+    min-width: 1850px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.fon img{
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+.fail{
+    font-size: 320px;
+    font-weight: bold;
+    color: #cdcdce;
+    text-shadow: 
+        2px 2px 0px rgba(203, 205, 207, 0.8),
+        4px 4px 0px rgba(222, 226, 230, 0.7),
+        6px 6px 0px rgba(206, 212, 218, 0.6),
+        8px 8px 0px rgba(173, 181, 189, 0.5),
+        10px 10px 0px rgba(108, 117, 125, 0.4),
+        12px 12px 15px rgba(33, 37, 41, 0.1),
+        0 0 25px rgba(248, 249, 250, 0.5);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: fixed;
+    top: 340px;
+    left: 40px;
+    white-space: nowrap;
+    z-index: 100;
+    min-width: 1850px;
+    width: 100%;
+}
+.text{
+    font-family: Airport;
+    font-size: 70px;
+    position: fixed;
+    left: 0;
+    top: 120px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left:150px;
+    color: #660000;
+    text-shadow: 
+        0 0 15px rgba(120, 20, 20, 0.9),
+        0 0 25px rgba(90, 15, 15, 0.7),
+        0 0 35px rgba(70, 10, 10, 0.5),
+        0 0 45px rgba(50, 5, 5, 0.3),
+        3px 3px 5px rgba(10, 0, 0, 0.9);
+    width: 100%;
+    z-index: 10;
+    min-width: 1850px;
+}
+.head{
+    font-size: 80px;
+    flex-grow: 1;
+    color: rgba(154, 11, 11, 0.902);
+    border: 3px solid brown;
+    background-color: rgb(216, 146, 16);
+    text-align: center;
+    font-family: Airport;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    min-width: 1850px;
+}
+.fire img{
+    height: 140px;
+    width: auto;
+    position: fixed;
+    top: 815px;
+    left:935px;
+    z-index: 10;
+}
