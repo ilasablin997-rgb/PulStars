@@ -322,11 +322,100 @@
     position: relative;
     top: -5px;
 }
-@media (max-width: 480px) {
+@media only screen and (max-width : 480px) {
     .bg{
         min-width: auto;
     }
     .header-logo{
         display: none;
+    }
+    .header{
+        display: block;
+    }
+    .header-nazv{
+        font-size:80px;
+        text-align: center;
+        margin: 0;
+        top: -10px;
+    }
+    .osnova{
+        display: block;
+    }
+    .novost{
+        display: none;
+    }
+    .menu {
+        width: 100%;
+        border: 3px solid brown;
+    }
+    
+    .menu span {
+        font-size: 60px;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 0;
+        border: none;
+        border-top: 2px solid brown;
+        position: static;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-decoration: underline;
+    }
+    
+    .menu ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: none;
+        border-bottom: 3px solid brown;
+        font-weight: bold;
+        padding: 20px 10px;
+        font-size: 30px;
+        word-break: break-word;
+        margin: 0;
+        flex-grow: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .menu ul li:first-child {
+        padding-left: 10px;
+        max-width: none;
+        border-top: 1px solid brown;;
+    }
+    
+    .menu ul li:last-child {
+        border-bottom: 2px solid brown;
+    }
+    .massa{
+        flex-direction: column;
+    }
+    .info{
+        order: -1;
+        max-width: 464px;
+        height: 800px;
+        border: 3px solid brown;
+        border-top: 1px;
+    }
+    .info-head{
+        font-size: 50px;
+    }
+    .info-korob img{
+        height: 300px;
+        width: auto;
+    }
+    .info-sale img{
+        height: 200px;
+        width: auto;
+        transform: translateY(-180px) translateX(230px);
+    }
+    .info-sale_text{
+        font-size: 70px;
+        transform: translateY(-120px) translateX(255px) rotate(-30deg);
     }
 }
