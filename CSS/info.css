@@ -121,12 +121,16 @@
 @media only screen and (max-width : 480px) {
     .bg{
         min-width: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        max-width: 100vw;
+        padding: 0 1px;
         overflow-x: hidden;
+    }
+    .bg > * {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
         box-sizing: border-box;
-
     }
     .head{
         box-sizing: border-box;
