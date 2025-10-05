@@ -324,7 +324,7 @@
 }
 @media only screen and (max-width : 480px) {
     .bg{
-        min-width: auto;
+        min-width: 480px;
     }
     .header-logo{
         display: none;
