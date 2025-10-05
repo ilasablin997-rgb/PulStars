@@ -398,7 +398,7 @@
     .info{
         order: -1;
         max-width: 464px;
-        height: 800px;
+        height: 680px;
         border: 3px solid brown;
         border-top: 1px;
     }
@@ -417,5 +417,37 @@
     .info-sale_text{
         font-size: 70px;
         transform: translateY(-120px) translateX(255px) rotate(-30deg);
+    }
+    .info-korob_text_head{
+        margin: 0;
+        transform: translateY(360px)  translateX(-320px);
+        font-size: 42px;
+        white-space: nowrap;
+    }
+    .info-korob_text_1{
+        margin: 0;
+        transform: translateY(415px)  translateX(-320px);
+        font-size: 23px;
+        white-space: nowrap;
+    }
+    .info-korob_text_2{
+        margin: 0;
+        transform: translateY(445px)  translateX(-320px);
+        font-size: 23px;
+        white-space: nowrap;
+    }
+    .info-korob_sale1{
+        transform: translateY(500px)  translateX(-390px);
+        white-space: nowrap;
+    }
+    .info-korob_sale2{
+        transform: translateY(500px)  translateX(-350px) rotate(20deg);
+        white-space: nowrap;
+    }
+    .info-korob a{
+        margin-left: -125px;
+        margin-top: 515px;
+        white-space: nowrap;
+        font-size: 32px;
     }
 }
