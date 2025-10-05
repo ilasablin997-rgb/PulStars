@@ -170,6 +170,7 @@
     top: 40px
 }
 .reclama{
+    height: max-content;
     width: 300px;
     border: 3px solid brown;
     border-top: 1px;
