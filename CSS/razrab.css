@@ -99,6 +99,7 @@
         background: #0a0a2a;
         position: relative;
         max-height: 550px;
+        overflow-y: hidden;
     }
     .bg::before {
         content: '';
