@@ -1,0 +1,192 @@
+@font-face{
+    font-family: Airport;
+    src: url(../font/Airport.otf) format('truetype');
+}
+:target {
+    scroll-margin-top: 50vh;
+}
+.bg {
+    background-color: rgb(0, 0, 0);
+    min-width: 1850px;
+}
+.head{
+    font-family: Airport;
+    font-size: 300px;
+    text-align: center;
+    color: #ff0000;
+    margin: 50px 0;
+    background: linear-gradient(45deg, #ff0000, #ff6b6b, #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 
+        0 0 30px rgba(90, 7, 7, 0.8),
+        0 0 60px rgba(255, 0, 0, 0.6),
+        0 0 90px rgba(255, 0, 0, 0.4);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.sale{
+    display: flex;
+}
+.sale-text{
+    color: rgba(154, 11, 11, 0.902);
+    border: 3px solid brown;
+    background-color: rgb(216, 146, 16);
+    text-align: center;
+    font-family: Airport;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 20%;
+    font-size: 50px;
+    box-sizing: border-box;
+}
+.sale-time{
+    color: dimgray;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    font-family: Airport;
+    text-align: center;
+    flex-grow: 2;
+    font-size: 40px;
+    position: relative;
+    border-left: 1px solid brown;
+    border-right: 3px solid brown;
+    border-bottom: 3px solid brown;
+    border-top: 3px solid brown;;
+    background-color: rgb(222, 228, 242);
+}
+.sale-time::before{
+    content: '!';
+    font-size: 50px;
+    color: darkorange;
+    margin-right: 10px;
+}
+.sale-otstup{
+    padding-bottom: 0;
+    padding-left: 40px;
+    font-size: 55px;
+    color: rgb(87, 23, 23);
+}
+.shop{
+    display: flex;
+}
+.shop-menu{
+    color: rgba(154, 11, 11, 0.902);
+    background-color: inherit;
+    border: 3px solid brown;
+    background-color: rgb(216, 146, 16);
+    width: 19.7%;
+    font-family: Airport;
+}
+.shop-menu-nazv{
+    text-align: center;
+    font-size: 50px;
+    padding: 0 50px;
+}
+.shop-menu ul{
+    padding: 0 15px;
+    list-style-type: none;
+    justify-content:space-evenly;
+    position: relative;
+    text-decoration: underline;
+}
+.shop-menu ul li{
+    padding: 5px 15px;
+    font-size: 40px;
+    word-break: break-word;
+}
+.shop-menu a{
+    color: rgba(154, 11, 11, 0.902);
+    font-size: 40px;
+}
+.shop-menu a:hover{
+    display: inline-block;
+    transform: scale(1.15) !important;
+}
+.shop-list{
+    border: 3px solid brown;
+    position: relative;
+    background-color: rgb(187, 186, 186);
+    border-left: 2px;
+    flex-grow: 2;
+}
+.shop-list ul{
+    padding: 0 15px;
+    list-style-type: none;
+    justify-content:space-evenly;
+    position: relative;
+}
+.shop-list ul li{
+    padding: 40px 0;
+}
+.shop-list-tovar{
+    display: flex;
+    font-family: Airport;
+}
+.shop-list-tovar img{
+    width: 600px;
+    height: auto;
+    margin-left: 20px;
+    padding: 0 10px;
+    border: 2px solid rgb(87, 23, 23);
+    background-color: rgb(222, 242, 242);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.shop-list-tovar img:hover{
+    display: inline-block;
+    transform: scale(1.15) !important;
+}
+.shop-list-tovar-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    margin: 0 100px;
+}
+.shop-list-tovar-text-nazv{
+    font-size: 70px;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+.shop-list-tovar-text-info{
+    color: dimgray;
+    font-size: 30px;
+}
+.shop-list-tovar-text-sale{
+    display: flex;
+}
+.shop-list-tovar-text-sale img{
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
+    padding: 0 10px;
+    border: 2px solid rgb(87, 23, 23);
+    background-color: rgb(175, 161, 8);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.info-korob_sale1{
+    font-family: Airport;
+    font-size: 40px;
+    margin: 10px 100px;
+    padding: 10px;
+    color: rgba(82, 81, 81, 0.809);
+    text-decoration: line-through;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.info-korob_sale2{
+    font-family: Airport;
+    position: absolute;
+    font-size: 50px;
+    margin: 5px 170px;
+    transform: rotate(20deg);
+    color: rgba(247, 14, 14, 0.809);
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
