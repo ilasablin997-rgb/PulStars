@@ -243,3 +243,116 @@
     padding: 0 15px;
     color: rgba(148, 155, 155, 0.744);
 }
+@media only screen and (max-width : 480px) {
+    .bg{
+        min-width: auto;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .bg > * {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        box-sizing: border-box;
+    }
+    .head{
+        font-size: 100px;
+    }
+    .sale{
+        display: block;
+    }
+    .sale-text{
+        width: 100%;
+        padding: 5px;
+    }
+    .sale-time{
+        font-size: 30px;
+        border: 3px solid brown;
+    }
+    .shop-menu{
+        width: 99.2%;
+        border: 2px solid brown;
+        border-right: 3px solid brown;
+        border-left: 1px;
+    }
+    .shop{
+        display: block;
+        border-left: 3px solid brown;
+    }
+    .shop-list{
+        display: block;
+        width: auto;
+    }
+    .shop-list-tovar img{
+    width: 300px;
+    }
+    .shop-list-tovar img:hover{
+    display: inline-block;
+    transform: scale(1) !important;
+    }
+    .shop-list-tovar{
+    display: block;
+    }
+    .shop-list-tovar-text{
+        margin: 0 20px;
+    }
+    .shop-list-tovar-text-nazv{
+    font-size: 36px;
+    }
+    .shop-list ul{
+    padding: 0 0px;
+    list-style-type: none;
+    justify-content:space-evenly;
+    position: relative;
+    }
+    .shop-list ul li{
+    padding: 20px 0;
+    }
+    .shop-list-tovar-text-sale{
+    display: flex;
+    }
+    .shop-list-tovar-text-sale img{
+        width: 40px;
+        height: auto;
+        margin-left: 20px;
+        padding: 0 10px;
+        border: 2px solid rgb(87, 23, 23);
+        background-color: rgb(175, 161, 8);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    }
+    .info-korob_sale1{
+        font-family: Airport;
+        font-size: 40px;
+        margin: 10px 20px;
+        padding: 10px;
+        color: rgba(82, 81, 81, 0.809);
+        text-decoration: line-through;
+        text-align: center;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    .info-korob_sale2{
+        font-family: Airport;
+        position: absolute;
+        font-size: 50px;
+        margin: 5px 90px;
+        transform: rotate(20deg);
+        color: rgba(247, 14, 14, 0.809);
+        text-shadow: 
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    }
+    .mini img{
+    height: 200px;
+    width: auto;
+    padding:10px 30px;
+    }
+    .max img{
+        height: 450px;
+    }
+}
