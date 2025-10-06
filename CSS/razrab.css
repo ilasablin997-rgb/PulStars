@@ -88,4 +88,72 @@
     top: 805px;
     left:920px;
     z-index: 10;
+    display: none;
+}
+@media only screen and (max-width : 480px) {
+    .bg{
+        min-width: auto;
+        margin: 0;
+        padding: 0;
+        overflow:  auto;
+        background: #0a0a2a;
+        position: relative;
+        max-height: 550px;
+    }
+    .bg::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: 
+            radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+            radial-gradient(2px 2px at 40px 70px, #fff, transparent),
+            radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+            radial-gradient(1px 1px at 130px 80px, #fff, transparent),
+            radial-gradient(2px 2px at 160px 30px, #eee, transparent);
+        background-repeat: repeat;
+        background-size: 200px 100px;
+        z-index: 1;
+    }
+    .fon{
+        display: none;
+    }
+    .head{
+        min-width: auto;
+        width: 100%;
+        border: 3px solid brown;
+        font-size: 38px;
+        position: relative;
+    }
+    .fail{
+        position: relative;
+        width: 100%;
+        font-size: 120px;
+        top: 70px;
+        left: 80px;
+    }
+    .text{
+        position: relative;
+        width: 100%;
+        font-size:22px;
+        top: 30px;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 18px;
+        padding-right: 0;
+        white-space: nowrap;
+        filter: brightness(1.2);
+    }
+    .fire img{
+        display: block;
+        height: 200px;
+        width: auto;
+        position: absolute;
+        bottom: 30px;
+        left: 85px;
+        top: 280px;
+        z-index: 1000;
+    }
 }
