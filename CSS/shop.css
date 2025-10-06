@@ -190,3 +190,11 @@
     -1px 1px 0 black,
     1px 1px 0 black;
 }
+.mini img{
+    height: 400px;
+    width: auto;
+    padding:10px 170px;
+}
+.max img{
+    height: 450px;
+}
