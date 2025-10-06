@@ -198,3 +198,48 @@
 .max img{
     height: 450px;
 }
+.header-kont img{
+    height: 20px;
+    width: auto;
+}
+.TG img{
+    margin-right: 5px;
+}
+.telefone img{
+    color: rgba(148, 155, 155, 0.744);
+    vertical-align: -4px;
+    margin-right: 5px;
+}
+.telefone{
+    position: relative;
+    font-size: 20px;
+}
+.vk img{
+    height: 40px;
+    width: auto;
+    position: relative;
+    top: -10px;
+    left: -23px;
+}
+.header-kont a{
+    position: relative;
+    z-index: 100;
+    font-size: 16px;
+    vertical-align: 5px;
+    color: rgba(148, 155, 155, 0.744);
+}
+.vk a{
+    top: -19px;
+    left: -40px;
+    font-size: 20px;
+}
+.TG a{
+    font-size: 18px;
+}
+.header-kont{
+    font-family: Airport;
+    font-size: 25px;
+    line-height: 20px; 
+    padding: 0 15px;
+    color: rgba(148, 155, 155, 0.744);
+}
